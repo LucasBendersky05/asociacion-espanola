@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;*/
+
+/*font-family: 'Playfair Display', serif;*/
+
+.margen-general {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+/*-------header--------*/
+
+.encabezado {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    height: 160px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 200px;    
+}
+
+.logo {    
+    width: 250px;    
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 5rem;
+    font-family: 'Roboto';
+    font-size: 1.3rem;  
+    list-style-type: none;          
+}
+
+.link-item {
+    color: white;
+    border-bottom: 1px solid black;   
+    transition: all 0.5s ease; 
+}
+
+.link-item-encabezado {
+    color: white;
+    font-size: 15px;
+}
+
+.link-item-submenu {
+    color: white;  
+    
+}
+
+.link-item:hover {
+    border-color:white;
+}
+
+.submenu {
+    display: none;
+}
+
+.link-item:hover .submenu {
+    display: block;
+}
+
+.li-submenu {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/*-------líneas de separación de secciones--------*/
+
+.destacadas {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.destacadas2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 25px;
+}
+
+.linea2 {
+    width: 80%;
+    border: 1.5px solid black;        
+}
+
+
+/*-------principal--------*/
+
+.principal {   
+    margin-top: 20px;
+    margin-left: 20px;      
+}
+
+.img-principal {
+    width: 100%;    
+}
+
+.enlace-principal {
+    font-family: 'Roboto';
+    font-size: 10px;
+    /*font-style: italic;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.estilos-enlaces {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+
+
+.enlaces {
+    display: flex;
+    gap: 10px;
+}
+
+.titulo-principal {
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    /*font-style: italic;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+.link-titulo-principal {
+    color: black;
+}
+
+.parrafo-principal {
+    width: 100%px;
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    /*font-style: italic;*/
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+
+/*-------cards de la sección principal--------*/
+
+.secciones {
+    display: flex;
+    gap: 20px;
+}
+
+.cards-principal {
+    max-width: 50%;
+    gap: 20px;
+}
+
+.cards-principal-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.cards-principal-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.articulo-cards {
+    max-width: 300px;
+    margin-top: 20px;
+    background-color:white; 
+}
+
+.img-cards {
+width: 300px;
+height: 200px;
+}
+
+.link-articulo1-seccion1-2 {
+font-family: 'Roboto';
+font-size: 10px;
+font-style: italic;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.titulo-cards {
+font-family: 'Playfair Display';
+font-size: 20px;
+/*font-style: italic;*/
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.parrafo-cards {
+width: 100%;
+font-family: 'Playfair Display';
+font-size: 15px;
+/*font-style: italic;*/
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+
+.enlaces-cards {
+    font-family: 'Roboto';
+    font-size: 10px;
+    /*font-style: italic;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+
+
+/*-------cards de Más actividades--------*/
+
+.cards-mas-actividades {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+
+/*-------artículos individuales--------*/
+
+.titulo-articulos {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;    
+}
+
+.parrafo-articulos {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: large;
+    font-family: 'Playfair Display';
+    text-align: justify;
+}
+
+.img-articulos {
+    width: 300px;    
+}
+
+.img-articulos-seccion {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.img-destacada-articulos {
+    width: 400px;        
+}
+
+.destacada-articulos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+/*-------seccion proyectos--------*/
+
+.img-proyecto {
+    width: 300px;
+    height: 200px;
+}
+
+.articulo-proyecto {
+    display: flex;
+    margin-top: 40px;
+}
+
+.titulo-proyecto {
+    font-size: 30px;
+    font-family: 'Playfair Display';
+}
+
+.parrafo-proyecto {
+    font-size: 15px;
+    font-family: 'Playfair Display';
+}
+
+.articulo-proyecto-texto {
+    margin-left: 20px;
+    max-width: 700px;
+    font-family: 'Playfair Display';
+}
+
+
+/*-------footer--------*/
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-footer {
+    width: 80px;
+}
+
+.datos-asociacion {
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.firma-footer {
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.datos-asociacion {
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+
+.datos-info {
+    font-family: 'Roboto';
+    font-weight: lighter;
+}
+
+.titulo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo-footer {
+    width: 400px;
+   
+}
+
+.linea-vertical-footer {
+    height: 50px;
+    border: 1px solid rgb(192, 191, 191); 
+}
+
+
+.linea-footer {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid rgb(192, 191, 191);
+    margin-top: 60px;    
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+.iconos-footer1 {
+    width: 50px;
+}
+
+.iconos-footer2 {
+    width: 40px;
+}
+    
+
